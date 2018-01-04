@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 12px;
+    line-height: 25px;
+    color: #555555;
+    margin: 0 auto;
+}
+a {
+    color: #555555;
+    text-decoration: none;
+}
+a:hover {
+    color: #ff4e00;
+}
+img {
+    border: 0;
+}
+
+
+.mall-main-list {
+    width: 240px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left:6%;
+    top: 20%;
+    height: 67%;
+}
+.none {
+    display: none;
+}
+.mall-main-list ul li {
+    height: auto;
+    line-height: auto;
+    color: #FFF;
+    font-size: 14px;
+    margin-left: 1px;
+    cursor: pointer;
+    position: relative;
+    padding:15px 0px;
+
+}
+.mall-main-list ul li:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  
+  
+}
+
+.mall-main-list ul li ul {
+    width: 220px;
+    min-height: 70px;
+    overflow: hidden;
+    position: absolute;
+    left: 196px;
+    top: 0;
+    border: 1px solid #d4d2d2;
+    border-left: 0;
+    z-index: 900;
+    display: none;
+}
+
+.mall-main-list ul li ul li {
+    width: 195px;
+    height: auto;
+    line-height: 25px;
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: normal;
+    background: none;
+    margin: 10px auto;
+    padding: 0 0 5px;
+    border-bottom: 1px dashed #d1d0d1;
+}
+
+.mall-main-list ul li ul li a {
+    color: #989797;
+    margin: 0 10px;
+}
+
+.mall-main-list ul li ul li a:hover {
+    color: #e02d02;
+}
+
+.mall-main-list .mall-right {
+    width: auto;
+    height: 500px;
+    overflow: hidden;
+    background-color: #FFF;
+    position: absolute;
+    left: 240px;
+    top: 0;
+    /*控制鼠标移入出现或消失*/
+    display: none;
+}
+.mall-main-list .mall-right .mall-right-list {
+    width: 685px;
+    height: 385px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.malldetall-title a{
+    padding: 0px 5px;
+    font-size: 14px;
+}
+.malldetall-price span{
+    padding: 0 5px;
+    color:red;
+    font-size:12px;
+
+}
+.malldetall-price ul li.active{
+   border: 1px solid red;
+}
+.malldetall-price ul li{
+    cursor: pointer;
+    border: 1px solid grey;
+    font-size: 12px;
+    line-height: 25px;
+    width: 154px;
+    height: 30px;
+
+}
+.malldetall-num span{
+    cursor: pointer;
+    line-height: 25px;
+    border: 1px solid #ccc;
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    padding: 0 8px;
+    font-size:14px;
+
+}
+.malldetall-num{
+    width: 50px;
+    height: 50px;
+}
+.malldetall-num span.pull-left{
+    line-height: 50px;
+    display: block;
+    height: 50px;
+
+}
+.col-sm-6 a.btn{
+    display: block;
+    width: 170px;
+
+}
+.mall-detall-malls ul li{
+    padding: 10px 0px;
+}
+.mall-detall-malls ul li.active{
+    border-bottom: 2px solid red;
+}
+.mall-detall-malls ul li a{
+    padding: 10px 10px;
+    font-size: 18px;
+
+}

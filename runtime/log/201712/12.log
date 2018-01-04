@@ -1,0 +1,298 @@
+---------------------------------------------------------------
+[ 2017-12-12T08:58:53+08:00 ] ::1 ::1 GET /tp5/public/
+[ info ] localhost/tp5/public/ [运行时间：0.498781s][吞吐率：2.00req/s] [内存消耗：1,793.50kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-12T08:58:57+08:00 ] ::1 ::1 GET /tp5/public/static/img/video/huawei-in.mp4
+[ info ] localhost/tp5/public/static/img/video/huawei-in.mp4 [运行时间：0.328714s][吞吐率：3.04req/s] [内存消耗：1,420.16kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'img',
+    2 => 'video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'identity;q=1, *;q=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/tp5/public/',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=evea3j0tibvl98bv0tgt7jpf85',
+  'range' => 'bytes=0-',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-12T13:13:19+08:00 ] ::1 ::1 GET /tp5/public/index/index/news.html
+[ info ] localhost/tp5/public/index/index/news.html [运行时间：0.648780s][吞吐率：1.54req/s] [内存消耗：2,731.25kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=evea3j0tibvl98bv0tgt7jpf85',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->news[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\news.html [ array (
+  0 => 'data',
+  1 => 'page',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027668s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news_model` [ RunTime:0.069355s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news_model` LIMIT 1 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT * FROM `news_model` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.319750s ]
+---------------------------------------------------------------
+[ 2017-12-12T13:13:19+08:00 ] ::1 ::1 GET /tp5/public/static/js/bootstrap.min.js
+[ info ] localhost/tp5/public/static/js/bootstrap.min.js [运行时间：0.045929s][吞吐率：21.77req/s] [内存消耗：1,419.93kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'bootstrap.min.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/tp5/public/index/index/news.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=evea3j0tibvl98bv0tgt7jpf85',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-12T13:13:20+08:00 ] ::1 ::1 GET /tp5/public/static/js/bootstrap.min.js
+[ info ] localhost/tp5/public/static/js/bootstrap.min.js [运行时间：0.035487s][吞吐率：28.18req/s] [内存消耗：1,419.93kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'bootstrap.min.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/tp5/public/index/index/news.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=evea3j0tibvl98bv0tgt7jpf85',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-12T13:13:23+08:00 ] ::1 ::1 GET /tp5/public/
+[ info ] localhost/tp5/public/ [运行时间：0.045485s][吞吐率：21.99req/s] [内存消耗：1,793.70kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=evea3j0tibvl98bv0tgt7jpf85',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-12T13:33:15+08:00 ] ::1 ::1 GET /tp5/public/index/index/news.html
+[ info ] localhost/tp5/public/index/index/news.html [运行时间：0.080107s][吞吐率：12.48req/s] [内存消耗：2,731.25kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=evea3j0tibvl98bv0tgt7jpf85',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->news[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\news.html [ array (
+  0 => 'data',
+  1 => 'page',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004702s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news_model` [ RunTime:0.007086s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news_model` LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `news_model` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000609s ]
+---------------------------------------------------------------
+[ 2017-12-12T13:33:15+08:00 ] ::1 ::1 GET /tp5/public/static/js/bootstrap.min.js
+[ info ] localhost/tp5/public/static/js/bootstrap.min.js [运行时间：0.059399s][吞吐率：16.84req/s] [内存消耗：1,419.93kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'bootstrap.min.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/tp5/public/index/index/news.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=evea3j0tibvl98bv0tgt7jpf85',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-12T13:33:16+08:00 ] ::1 ::1 GET /tp5/public/static/js/bootstrap.min.js
+[ info ] localhost/tp5/public/static/js/bootstrap.min.js [运行时间：0.042963s][吞吐率：23.28req/s] [内存消耗：1,419.93kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'bootstrap.min.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/tp5/public/index/index/news.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=evea3j0tibvl98bv0tgt7jpf85',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

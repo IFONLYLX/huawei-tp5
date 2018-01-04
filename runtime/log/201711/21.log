@@ -1,0 +1,3341 @@
+---------------------------------------------------------------
+[ 2017-11-21T21:33:00+08:00 ] ::1 ::1 GET /tp5/public/
+[ info ] localhost/tp5/public/ [运行时间：0.952810s][吞吐率：1.05req/s] [内存消耗：1,793.51kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-21T21:33:02+08:00 ] ::1 ::1 GET /tp5/public/static/img/video/huawei-in.mp4
+[ info ] localhost/tp5/public/static/img/video/huawei-in.mp4 [运行时间：0.140692s][吞吐率：7.11req/s] [内存消耗：1,420.01kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'img',
+    2 => 'video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'identity;q=1, *;q=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/tp5/public/',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+  'range' => 'bytes=0-',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-21T21:33:29+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall.html
+[ info ] localhost/tp5/public/index/index/mall.html [运行时间：0.267457s][吞吐率：3.74req/s] [内存消耗：2,748.20kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->mall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\mall.html [ array (
+  0 => 'data',
+  1 => 'data1',
+  2 => 'data2',
+  3 => 'data3',
+  4 => 'data5',
+  5 => 'data7',
+  6 => 'data8',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013351s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.041474s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 1 LIMIT 1 [ RunTime:0.018740s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 1 LIMIT 0,8 [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 2 LIMIT 1 [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 2 LIMIT 0,8 [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 3 LIMIT 1 [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 3 LIMIT 0,8 [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 4 LIMIT 1 [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 4 LIMIT 0,8 [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 5 LIMIT 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 5 LIMIT 0,8 [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 7 LIMIT 1 [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 7 LIMIT 0,8 [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 8 LIMIT 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 8 LIMIT 0,8 [ RunTime:0.000557s ]
+---------------------------------------------------------------
+[ 2017-11-21T21:33:56+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.157659s][吞吐率：6.34req/s] [内存消耗：2,808.09kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005235s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.010445s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000621s ]
+---------------------------------------------------------------
+[ 2017-11-21T21:37:13+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.176790s][吞吐率：5.66req/s] [内存消耗：2,996.91kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005623s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.012279s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2017-11-21T21:37:48+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.109260s][吞吐率：9.15req/s] [内存消耗：2,995.81kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005264s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.011390s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000552s ]
+---------------------------------------------------------------
+[ 2017-11-21T21:38:18+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.121738s][吞吐率：8.21req/s] [内存消耗：2,996.11kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005022s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.022741s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000489s ]
+---------------------------------------------------------------
+[ 2017-11-21T21:38:35+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.112154s][吞吐率：8.92req/s] [内存消耗：2,996.11kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006620s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.012606s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000583s ]
+---------------------------------------------------------------
+[ 2017-11-21T21:40:37+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.109817s][吞吐率：9.11req/s] [内存消耗：2,977.06kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005591s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.012333s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000591s ]
+---------------------------------------------------------------
+[ 2017-11-21T21:41:32+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.108480s][吞吐率：9.22req/s] [内存消耗：2,977.02kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005543s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.012501s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[ 2017-11-21T21:42:59+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.117750s][吞吐率：8.49req/s] [内存消耗：2,976.97kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006965s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.011244s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000498s ]
+---------------------------------------------------------------
+[ 2017-11-21T21:52:10+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.135044s][吞吐率：7.40req/s] [内存消耗：2,977.35kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007218s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.013416s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000688s ]
+---------------------------------------------------------------
+[ 2017-11-21T21:55:17+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.116394s][吞吐率：8.59req/s] [内存消耗：2,976.88kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005327s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.010324s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000557s ]
+---------------------------------------------------------------
+[ 2017-11-21T21:55:18+08:00 ] ::1 ::1 GET /tp5/public/index.php
+[ info ] localhost/tp5/public/index.php [运行时间：0.080318s][吞吐率：12.45req/s] [内存消耗：1,791.21kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'accept-encoding' => 'compress,gzip',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-21T21:55:19+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.117145s][吞吐率：8.54req/s] [内存消耗：2,808.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005029s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.024660s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000533s ]
+---------------------------------------------------------------
+[ 2017-11-21T21:56:10+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.090285s][吞吐率：11.08req/s] [内存消耗：2,808.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005532s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.012657s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000567s ]
+---------------------------------------------------------------
+[ 2017-11-21T21:56:12+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.103585s][吞吐率：9.65req/s] [内存消耗：2,808.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005459s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.011161s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000593s ]
+---------------------------------------------------------------
+[ 2017-11-21T21:56:44+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.096661s][吞吐率：10.35req/s] [内存消耗：2,808.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005057s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.013433s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000669s ]
+---------------------------------------------------------------
+[ 2017-11-21T21:59:01+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.108431s][吞吐率：9.22req/s] [内存消耗：2,808.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013200s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.011252s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000624s ]
+---------------------------------------------------------------
+[ 2017-11-21T21:59:29+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.131955s][吞吐率：7.58req/s] [内存消耗：2,807.68kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004776s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.039306s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000965s ]
+---------------------------------------------------------------
+[ 2017-11-21T21:59:37+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.097990s][吞吐率：10.21req/s] [内存消耗：2,808.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005095s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.011696s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000461s ]
+---------------------------------------------------------------
+[ 2017-11-21T21:59:44+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.095023s][吞吐率：10.52req/s] [内存消耗：2,808.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005676s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.010333s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000573s ]
+---------------------------------------------------------------
+[ 2017-11-21T21:59:46+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.095039s][吞吐率：10.52req/s] [内存消耗：2,807.88kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004931s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.010024s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000582s ]
+---------------------------------------------------------------
+[ 2017-11-21T22:01:58+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.113813s][吞吐率：8.79req/s] [内存消耗：2,977.01kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006219s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.025224s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000501s ]
+---------------------------------------------------------------
+[ 2017-11-21T22:02:30+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.213521s][吞吐率：4.68req/s] [内存消耗：2,977.00kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005195s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.133207s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000781s ]
+---------------------------------------------------------------
+[ 2017-11-21T22:02:51+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.086122s][吞吐率：11.61req/s] [内存消耗：2,977.00kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005284s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.009459s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000527s ]
+---------------------------------------------------------------
+[ 2017-11-21T22:03:13+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.202345s][吞吐率：4.94req/s] [内存消耗：2,977.00kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005732s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.111425s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.003382s ]
+---------------------------------------------------------------
+[ 2017-11-21T22:04:01+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.103301s][吞吐率：9.68req/s] [内存消耗：2,993.43kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005163s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.012646s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000551s ]
+---------------------------------------------------------------
+[ 2017-11-21T22:04:30+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.097153s][吞吐率：10.29req/s] [内存消耗：2,823.90kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007408s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.012965s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000542s ]
+---------------------------------------------------------------
+[ 2017-11-21T22:12:06+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.111007s][吞吐率：9.01req/s] [内存消耗：2,994.10kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004832s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.012430s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000539s ]
+---------------------------------------------------------------
+[ 2017-11-21T22:12:27+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.117940s][吞吐率：8.48req/s] [内存消耗：2,994.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=ir5t9jmijd36nl03fuamk6f531',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005832s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.011950s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000615s ]
+---------------------------------------------------------------
+[ 2017-11-21T22:13:16+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.099461s][吞吐率：10.05req/s] [内存消耗：2,993.71kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007236s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.011995s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000527s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:20:23+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：3.397972s][吞吐率：0.29req/s] [内存消耗：2,994.05kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.627215s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.520738s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.087146s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:21:21+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.116084s][吞吐率：8.61req/s] [内存消耗：2,993.94kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005311s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.014703s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000778s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:21:23+08:00 ] ::1 ::1 GET /tp5/public/index.php
+[ info ] localhost/tp5/public/index.php [运行时间：0.147058s][吞吐率：6.80req/s] [内存消耗：1,791.21kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'accept-encoding' => 'compress,gzip',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-21T23:21:53+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.134023s][吞吐率：7.46req/s] [内存消耗：2,994.16kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045950s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.010986s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000572s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:22:24+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.129032s][吞吐率：7.75req/s] [内存消耗：2,994.20kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004578s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.029365s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000508s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:22:26+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.093000s][吞吐率：10.75req/s] [内存消耗：2,823.90kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005325s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.011036s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000453s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:22:43+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.106914s][吞吐率：9.35req/s] [内存消耗：2,994.16kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005338s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.012008s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000579s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:24:10+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.102655s][吞吐率：9.74req/s] [内存消耗：2,994.15kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005018s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.012061s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:24:23+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.120232s][吞吐率：8.32req/s] [内存消耗：2,994.16kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007003s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.011659s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000443s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:24:26+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.114401s][吞吐率：8.74req/s] [内存消耗：2,823.88kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005151s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.025894s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:24:33+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.108460s][吞吐率：9.22req/s] [内存消耗：2,994.16kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005237s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.025599s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000555s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:24:34+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.110398s][吞吐率：9.06req/s] [内存消耗：2,823.88kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005735s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.010865s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000505s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:24:46+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.125342s][吞吐率：7.98req/s] [内存消耗：2,994.16kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005372s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.025139s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000613s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:24:50+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=47
+[ info ] localhost/tp5/public/index/index/mall_detall?id=47 [运行时间：0.093558s][吞吐率：10.69req/s] [内存消耗：2,823.70kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '47',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004954s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.010967s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000601s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:25:02+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall.html
+[ info ] localhost/tp5/public/index/index/mall.html [运行时间：0.433149s][吞吐率：2.31req/s] [内存消耗：2,747.95kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->mall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\mall.html [ array (
+  0 => 'data',
+  1 => 'data1',
+  2 => 'data2',
+  3 => 'data3',
+  4 => 'data5',
+  5 => 'data7',
+  6 => 'data8',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005289s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.011779s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 1 LIMIT 1 [ RunTime:0.161456s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 1 LIMIT 0,8 [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 2 LIMIT 1 [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 2 LIMIT 0,8 [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 3 LIMIT 1 [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 3 LIMIT 0,8 [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 4 LIMIT 1 [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 4 LIMIT 0,8 [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 5 LIMIT 1 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 5 LIMIT 0,8 [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 7 LIMIT 1 [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 7 LIMIT 0,8 [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 8 LIMIT 1 [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 8 LIMIT 0,8 [ RunTime:0.000689s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:25:09+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=6
+[ info ] localhost/tp5/public/index/index/mall_detall?id=6 [运行时间：0.134451s][吞吐率：7.44req/s] [内存消耗：2,824.01kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004904s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.029771s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000539s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:25:17+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=6
+[ info ] localhost/tp5/public/index/index/mall_detall?id=6 [运行时间：0.097028s][吞吐率：10.31req/s] [内存消耗：2,994.47kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005356s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.010980s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000488s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:27:20+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=6
+[ info ] localhost/tp5/public/index/index/mall_detall?id=6 [运行时间：0.108819s][吞吐率：9.19req/s] [内存消耗：2,994.42kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005443s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.010985s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000509s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:28:21+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=6
+[ info ] localhost/tp5/public/index/index/mall_detall?id=6 [运行时间：0.125447s][吞吐率：7.97req/s] [内存消耗：2,994.44kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005861s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.027016s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000460s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:28:32+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=6
+[ info ] localhost/tp5/public/index/index/mall_detall?id=6 [运行时间：0.122738s][吞吐率：8.15req/s] [内存消耗：2,994.45kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007079s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.026150s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000630s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:28:53+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=6
+[ info ] localhost/tp5/public/index/index/mall_detall?id=6 [运行时间：0.098064s][吞吐率：10.20req/s] [内存消耗：2,994.45kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005112s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.010397s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000443s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:29:22+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=6
+[ info ] localhost/tp5/public/index/index/mall_detall?id=6 [运行时间：0.122642s][吞吐率：8.15req/s] [内存消耗：2,994.47kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005004s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.010453s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000469s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:29:34+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=6
+[ info ] localhost/tp5/public/index/index/mall_detall?id=6 [运行时间：0.108964s][吞吐率：9.18req/s] [内存消耗：2,994.47kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006036s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.010475s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000592s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:30:25+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=6
+[ info ] localhost/tp5/public/index/index/mall_detall?id=6 [运行时间：0.106026s][吞吐率：9.43req/s] [内存消耗：2,994.62kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005452s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.012433s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000363s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:30:36+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=6
+[ info ] localhost/tp5/public/index/index/mall_detall?id=6 [运行时间：0.202070s][吞吐率：4.95req/s] [内存消耗：2,994.63kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005657s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.084899s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000696s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:30:52+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall.html
+[ info ] localhost/tp5/public/index/index/mall.html [运行时间：0.118422s][吞吐率：8.44req/s] [内存消耗：2,747.95kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->mall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\mall.html [ array (
+  0 => 'data',
+  1 => 'data1',
+  2 => 'data2',
+  3 => 'data3',
+  4 => 'data5',
+  5 => 'data7',
+  6 => 'data8',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005761s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.013917s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 1 LIMIT 1 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 1 LIMIT 0,8 [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 2 LIMIT 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 2 LIMIT 0,8 [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 3 LIMIT 1 [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 3 LIMIT 0,8 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 4 LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 4 LIMIT 0,8 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 5 LIMIT 1 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 5 LIMIT 0,8 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 7 LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 7 LIMIT 0,8 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 8 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 8 LIMIT 0,8 [ RunTime:0.000369s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:30:57+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=7
+[ info ] localhost/tp5/public/index/index/mall_detall?id=7 [运行时间：0.080259s][吞吐率：12.46req/s] [内存消耗：2,824.02kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004747s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.009788s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000454s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:32:24+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=7
+[ info ] localhost/tp5/public/index/index/mall_detall?id=7 [运行时间：0.109232s][吞吐率：9.15req/s] [内存消耗：2,994.74kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004940s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.013935s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000615s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:32:41+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=7
+[ info ] localhost/tp5/public/index/index/mall_detall?id=7 [运行时间：0.170567s][吞吐率：5.86req/s] [内存消耗：2,994.73kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007641s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.060775s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000487s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:32:59+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=7
+[ info ] localhost/tp5/public/index/index/mall_detall?id=7 [运行时间：0.108271s][吞吐率：9.24req/s] [内存消耗：2,994.72kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004841s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.025762s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000514s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:33:11+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=7
+[ info ] localhost/tp5/public/index/index/mall_detall?id=7 [运行时间：0.103719s][吞吐率：9.64req/s] [内存消耗：2,994.74kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004994s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.013468s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000549s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:33:26+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=7
+[ info ] localhost/tp5/public/index/index/mall_detall?id=7 [运行时间：0.092842s][吞吐率：10.77req/s] [内存消耗：2,994.72kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005003s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.011101s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000441s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:34:27+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=7
+[ info ] localhost/tp5/public/index/index/mall_detall?id=7 [运行时间：0.161619s][吞吐率：6.19req/s] [内存消耗：2,994.74kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006557s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.025877s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:36:47+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=7
+[ info ] localhost/tp5/public/index/index/mall_detall?id=7 [运行时间：0.219570s][吞吐率：4.55req/s] [内存消耗：2,994.71kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007087s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.015672s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000699s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:37:04+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=7
+[ info ] localhost/tp5/public/index/index/mall_detall?id=7 [运行时间：0.151906s][吞吐率：6.58req/s] [内存消耗：2,994.73kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005431s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.070752s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000590s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:37:32+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=7
+[ info ] localhost/tp5/public/index/index/mall_detall?id=7 [运行时间：0.105976s][吞吐率：9.44req/s] [内存消耗：2,994.76kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007657s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.009934s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000512s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:37:40+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=7
+[ info ] localhost/tp5/public/index/index/mall_detall?id=7 [运行时间：0.093360s][吞吐率：10.71req/s] [内存消耗：2,994.81kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005194s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.010102s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000573s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:38:12+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=7
+[ info ] localhost/tp5/public/index/index/mall_detall?id=7 [运行时间：0.506761s][吞吐率：1.97req/s] [内存消耗：2,994.88kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007284s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.370620s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000623s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:39:25+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=7
+[ info ] localhost/tp5/public/index/index/mall_detall?id=7 [运行时间：0.203408s][吞吐率：4.92req/s] [内存消耗：2,994.73kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013675s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.070591s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000481s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:42:47+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall_detall?id=7
+[ info ] localhost/tp5/public/index/index/mall_detall?id=7 [运行时间：0.125405s][吞吐率：7.97req/s] [内存消耗：2,994.70kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall_detall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/index/index/mall.html',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Index->mall_detall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\malldetall.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005595s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.012853s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000454s ]
+---------------------------------------------------------------
+[ 2017-11-21T23:43:11+08:00 ] ::1 ::1 GET /tp5/public/index/index/mall.html
+[ info ] localhost/tp5/public/index/index/mall.html [运行时间：0.113384s][吞吐率：8.82req/s] [内存消耗：2,747.95kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'mall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=nq98874c5upt29r7kgmjov3o95',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->mall[ D:\phpstudy\WWW\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\tp5\public/../app/index\view\index\mall.html [ array (
+  0 => 'data',
+  1 => 'data1',
+  2 => 'data2',
+  3 => 'data3',
+  4 => 'data5',
+  5 => 'data7',
+  6 => 'data8',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010419s ] mysql:dbname=huawei;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `upload_model` [ RunTime:0.013630s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 1 LIMIT 1 [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 1 LIMIT 0,8 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 2 LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 2 LIMIT 0,8 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 3 LIMIT 1 [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 3 LIMIT 0,8 [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 4 LIMIT 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 4 LIMIT 0,8 [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 5 LIMIT 1 [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 5 LIMIT 0,8 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 7 LIMIT 1 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 7 LIMIT 0,8 [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `upload_model` WHERE  `titleid` = 8 LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT * FROM `upload_model` WHERE  `titleid` = 8 LIMIT 0,8 [ RunTime:0.000367s ]

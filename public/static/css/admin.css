@@ -1,0 +1,236 @@
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;	
+}
+a{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+#body{
+	background: #373d41  scroll 0 0;
+
+}
+/*左边页面*/
+#body-left{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	position:fixed;
+	background: #373d41  scroll 0 0;
+	float:left;
+	height:724px;
+}
+#body-left a,#body-left span{
+	color:#fff;
+	text-decoration:none;	
+}
+#body-left .body-leftmain{
+	background: #4A5064  scroll 0 0;
+}
+#body #body-left .body-leftmain ul > li{
+	list-style:none;
+	text-align: center;
+	
+}
+#body #body-left .body-leftmain > ul > li:hover{
+	background:rgba(147,150,80,1);
+
+	
+}
+#body #body-left .body-leftmain ul li a{
+	display: block;
+	font-size: 12px
+	color: #fff;
+}
+
+#body #body-left .body-leftmain ul li a span{
+	padding-right: 25px;
+	margin-top: 5px;
+}
+#body-left .body-leftmain  .t:hover span , #body-left .body-leftmain  .t:hover{
+	text-decoration:none;
+
+	
+}
+#body-left .body-leftmain  p{
+	margin: 0 auto;
+	width:200px;
+	height: 30px;
+	line-height: 30px;
+	text-decoration:none;
+	font-size: 12px;
+}
+
+#body-left .body-leftmain  .u{
+	display:none;
+}
+#body-left .body-leftmain ul li ul li{
+	height: 30px;
+	line-height: 30px;
+	cursor:pointer;
+	color:rgba(51,51,51,0.8);
+	list-style:none;
+	background: #373d41  scroll 0 0;
+}
+#body-left .body-leftmain ul li ul li:hover{
+	background: #4A5064;
+}
+
+/*左边页面*/
+
+/*右边页面*/
+#body-right{
+	overflow:hidden;
+	background:#9CF;
+	height:1200px;			
+}
+/*右边页面*/
+#body-right-f{
+	overflow:hidden;
+	background:#FFF;
+	height:1200px;			
+}
+/*右边页面*/
+#body-right-f-z{
+	overflow:hidden;
+	background:#900;
+	height:1200px;			
+}
+/*右边页面*/
+#body-right-f-s{
+	overflow:hidden;
+	background:#6F0;
+	height:1200px;			
+}
+/*右边页面*/
+#body-right-f-g{
+	overflow:hidden;
+	background:#CC6;
+	height:1200px;			
+}
+/*右边页面*/
+#body-right-f-c{
+	overflow:hidden;
+	background:#360;
+	height:1200px;			
+}
+/*右边页面*/
+
+/*头部页面*/
+#top{
+	padding-left:18px;
+	background: #373d41  scroll 0 0;
+	height:50px;
+	clear:both;	
+	
+}
+#top img{
+	float:left;
+}
+#top .new a{
+	text-decoration:none;
+	
+}
+#top .new i{
+	font:normal;
+	
+}
+#top .new a:hover{
+	color:#900;
+	
+}
+#top .top-main{
+	float:right;
+	margin-right:20px;
+}
+#top .top-main ul li{
+	border: 1px solid ;
+	width:66px;
+	height:50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 14px;
+	list-style:none;
+	float:left;	
+}
+#top .top-main ul li a{
+	color: #fff;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	height:20px;
+	text-decoration:none;
+}
+#top .top-main ul li:hover{
+	background: rgba(0,0,0,0.2);
+
+}
+#top .top-main ul li .z{
+	background:url(../img/btop.jpg) no-repeat -313px -474px;	
+}
+#top .top-main ul li .x{
+	background:url(../img/btop.jpg) no-repeat -562px -474px;	
+}
+#top .top-main ul li .c{
+	background:url(../img/btop.jpg) no-repeat -808px -474px;	
+}
+#top .top-main ul li .v{
+	background:url(../img/btop.jpg) no-repeat -313px -610px;	
+}
+#top .top-main ul li .b{
+	background:url(../img/btop.jpg) no-repeat -313px -335px;	
+}
+#top .top-main ul li .n{
+	background:url(../img/btop.jpg) no-repeat -688px -197px;	
+}
+#top .top-main ul li .m{
+	background:url(../img/btop.jpg) no-repeat -688px -57px;	
+}
+/*头部页面*/
+
+
+/*更多应用页面*/
+
+#body-right-m{
+	overflow:hidden;
+	background:#CCF;
+	height:1200px;			
+}
+
+
+#body-right-m ul li{
+	margin:25px 35px;
+	width:200px;
+	height:120px;
+	list-style:none;
+	float:left;			
+}
+#body-right-m ul li a{
+	margin:0px auto;
+	display:block;
+	width:97px;
+	height:97px;
+}
+#body-right-m ul li .z{
+	
+	background:url(../img/btop.jpg) no-repeat -28px -22px;		
+}
+#body-right-m ul li .x{
+	background:url(../img/btop.jpg) no-repeat -152px -22px;		
+}
+#body-right-m ul li .c{
+	background:url(../img/btop.jpg) no-repeat -277px -22px;		
+}
+#body-right-m ul li .v{
+	background:url(../img/btop.jpg) no-repeat -528px -22px;		
+}
+#body-right-m ul li .b{
+	background:url(../img/btop.jpg) no-repeat -28px -160px;		
+}
+#body-right-m ul li p{
+	cursor:pointer;
+	font-size:12px;
+	color:rgba(0,0,0,0.9);
+	width:95px;
+	margin:8px auto;
+	
+}
+
+/*更多应用页面*/
